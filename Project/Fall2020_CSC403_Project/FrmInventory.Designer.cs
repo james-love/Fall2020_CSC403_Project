@@ -28,144 +28,169 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.invSlot1 = new System.Windows.Forms.Button();
-            this.invSlot2 = new System.Windows.Forms.Button();
-            this.invSlot3 = new System.Windows.Forms.Button();
-            this.invSlot4 = new System.Windows.Forms.Button();
-            this.invSlot5 = new System.Windows.Forms.Button();
-            this.invSlot6 = new System.Windows.Forms.Button();
-            this.invSlot7 = new System.Windows.Forms.Button();
-            this.invSlot8 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
-            // 
-            // invSlot1
-            // 
-            this.invSlot1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.invSlot1.Location = new System.Drawing.Point(12, 12);
-            this.invSlot1.Name = "invSlot1";
-            this.invSlot1.Size = new System.Drawing.Size(100, 100);
-            this.invSlot1.TabIndex = 0;
-            this.invSlot1.Tag = "0";
-            this.invSlot1.Text = "0";
-            this.invSlot1.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.invSlot1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.invSlot1.UseVisualStyleBackColor = true;
-            this.invSlot1.Click += new System.EventHandler(this.InvSlot_Click);
-            // 
-            // invSlot2
-            // 
-            this.invSlot2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.invSlot2.Location = new System.Drawing.Point(118, 12);
-            this.invSlot2.Name = "invSlot2";
-            this.invSlot2.Size = new System.Drawing.Size(100, 100);
-            this.invSlot2.TabIndex = 1;
-            this.invSlot2.Tag = "1";
-            this.invSlot2.Text = "0";
-            this.invSlot2.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.invSlot2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.invSlot2.UseVisualStyleBackColor = true;
-            this.invSlot2.Click += new System.EventHandler(this.InvSlot_Click);
-            // 
-            // invSlot3
-            // 
-            this.invSlot3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.invSlot3.Location = new System.Drawing.Point(224, 12);
-            this.invSlot3.Name = "invSlot3";
-            this.invSlot3.Size = new System.Drawing.Size(100, 100);
-            this.invSlot3.TabIndex = 2;
-            this.invSlot3.Tag = "2";
-            this.invSlot3.Text = "0";
-            this.invSlot3.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.invSlot3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.invSlot3.UseVisualStyleBackColor = true;
-            this.invSlot3.Click += new System.EventHandler(this.InvSlot_Click);
-            // 
-            // invSlot4
-            // 
-            this.invSlot4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.invSlot4.Location = new System.Drawing.Point(330, 12);
-            this.invSlot4.Name = "invSlot4";
-            this.invSlot4.Size = new System.Drawing.Size(100, 100);
-            this.invSlot4.TabIndex = 3;
-            this.invSlot4.Tag = "3";
-            this.invSlot4.Text = "0";
-            this.invSlot4.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.invSlot4.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.invSlot4.UseVisualStyleBackColor = true;
-            this.invSlot4.Click += new System.EventHandler(this.InvSlot_Click);
-            // 
-            // invSlot5
-            // 
-            this.invSlot5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.invSlot5.Location = new System.Drawing.Point(12, 118);
-            this.invSlot5.Name = "invSlot5";
-            this.invSlot5.Size = new System.Drawing.Size(100, 100);
-            this.invSlot5.TabIndex = 4;
-            this.invSlot5.Tag = "4";
-            this.invSlot5.Text = "0";
-            this.invSlot5.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.invSlot5.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.invSlot5.UseVisualStyleBackColor = true;
-            this.invSlot5.Click += new System.EventHandler(this.InvSlot_Click);
-            // 
-            // invSlot6
-            // 
-            this.invSlot6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.invSlot6.Location = new System.Drawing.Point(118, 118);
-            this.invSlot6.Name = "invSlot6";
-            this.invSlot6.Size = new System.Drawing.Size(100, 100);
-            this.invSlot6.TabIndex = 5;
-            this.invSlot6.Tag = "5";
-            this.invSlot6.Text = "0";
-            this.invSlot6.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.invSlot6.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.invSlot6.UseVisualStyleBackColor = true;
-            this.invSlot6.Click += new System.EventHandler(this.InvSlot_Click);
-            // 
-            // invSlot7
-            // 
-            this.invSlot7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.invSlot7.Location = new System.Drawing.Point(224, 118);
-            this.invSlot7.Name = "invSlot7";
-            this.invSlot7.Size = new System.Drawing.Size(100, 100);
-            this.invSlot7.TabIndex = 6;
-            this.invSlot7.Tag = "6";
-            this.invSlot7.Text = "0";
-            this.invSlot7.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.invSlot7.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.invSlot7.UseVisualStyleBackColor = true;
-            this.invSlot7.Click += new System.EventHandler(this.InvSlot_Click);
-            // 
-            // invSlot8
-            // 
-            this.invSlot8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.invSlot8.Location = new System.Drawing.Point(330, 118);
-            this.invSlot8.Name = "invSlot8";
-            this.invSlot8.Size = new System.Drawing.Size(100, 100);
-            this.invSlot8.TabIndex = 7;
-            this.invSlot8.Tag = "7";
-            this.invSlot8.Text = "0";
-            this.invSlot8.TextAlign = System.Drawing.ContentAlignment.BottomRight;
-            this.invSlot8.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
-            this.invSlot8.UseVisualStyleBackColor = true;
-            this.invSlot8.Click += new System.EventHandler(this.InvSlot_Click);
-            // 
-            // FrmInventory
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(445, 233);
-            this.Controls.Add(this.invSlot8);
-            this.Controls.Add(this.invSlot7);
-            this.Controls.Add(this.invSlot6);
-            this.Controls.Add(this.invSlot5);
-            this.Controls.Add(this.invSlot4);
-            this.Controls.Add(this.invSlot3);
-            this.Controls.Add(this.invSlot2);
-            this.Controls.Add(this.invSlot1);
-            this.Name = "FrmInventory";
-            this.Text = "Inventory";
-            this.ResumeLayout(false);
+      this.invSlot1 = new System.Windows.Forms.Button();
+      this.invSlot2 = new System.Windows.Forms.Button();
+      this.invSlot3 = new System.Windows.Forms.Button();
+      this.invSlot4 = new System.Windows.Forms.Button();
+      this.invSlot5 = new System.Windows.Forms.Button();
+      this.invSlot6 = new System.Windows.Forms.Button();
+      this.invSlot7 = new System.Windows.Forms.Button();
+      this.invSlot8 = new System.Windows.Forms.Button();
+      this.goldLabel = new System.Windows.Forms.Label();
+      this.goldAmount = new System.Windows.Forms.Label();
+      this.SuspendLayout();
+      // 
+      // invSlot1
+      // 
+      this.invSlot1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+      this.invSlot1.Location = new System.Drawing.Point(12, 12);
+      this.invSlot1.Name = "invSlot1";
+      this.invSlot1.Size = new System.Drawing.Size(100, 100);
+      this.invSlot1.TabIndex = 0;
+      this.invSlot1.Tag = "0";
+      this.invSlot1.Text = "0";
+      this.invSlot1.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+      this.invSlot1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+      this.invSlot1.UseVisualStyleBackColor = true;
+      this.invSlot1.Click += new System.EventHandler(this.InvSlot_Click);
+      // 
+      // invSlot2
+      // 
+      this.invSlot2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+      this.invSlot2.Location = new System.Drawing.Point(118, 12);
+      this.invSlot2.Name = "invSlot2";
+      this.invSlot2.Size = new System.Drawing.Size(100, 100);
+      this.invSlot2.TabIndex = 1;
+      this.invSlot2.Tag = "1";
+      this.invSlot2.Text = "0";
+      this.invSlot2.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+      this.invSlot2.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+      this.invSlot2.UseVisualStyleBackColor = true;
+      this.invSlot2.Click += new System.EventHandler(this.InvSlot_Click);
+      // 
+      // invSlot3
+      // 
+      this.invSlot3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+      this.invSlot3.Location = new System.Drawing.Point(224, 12);
+      this.invSlot3.Name = "invSlot3";
+      this.invSlot3.Size = new System.Drawing.Size(100, 100);
+      this.invSlot3.TabIndex = 2;
+      this.invSlot3.Tag = "2";
+      this.invSlot3.Text = "0";
+      this.invSlot3.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+      this.invSlot3.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+      this.invSlot3.UseVisualStyleBackColor = true;
+      this.invSlot3.Click += new System.EventHandler(this.InvSlot_Click);
+      // 
+      // invSlot4
+      // 
+      this.invSlot4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+      this.invSlot4.Location = new System.Drawing.Point(330, 12);
+      this.invSlot4.Name = "invSlot4";
+      this.invSlot4.Size = new System.Drawing.Size(100, 100);
+      this.invSlot4.TabIndex = 3;
+      this.invSlot4.Tag = "3";
+      this.invSlot4.Text = "0";
+      this.invSlot4.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+      this.invSlot4.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+      this.invSlot4.UseVisualStyleBackColor = true;
+      this.invSlot4.Click += new System.EventHandler(this.InvSlot_Click);
+      // 
+      // invSlot5
+      // 
+      this.invSlot5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+      this.invSlot5.Location = new System.Drawing.Point(12, 118);
+      this.invSlot5.Name = "invSlot5";
+      this.invSlot5.Size = new System.Drawing.Size(100, 100);
+      this.invSlot5.TabIndex = 4;
+      this.invSlot5.Tag = "4";
+      this.invSlot5.Text = "0";
+      this.invSlot5.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+      this.invSlot5.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+      this.invSlot5.UseVisualStyleBackColor = true;
+      this.invSlot5.Click += new System.EventHandler(this.InvSlot_Click);
+      // 
+      // invSlot6
+      // 
+      this.invSlot6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+      this.invSlot6.Location = new System.Drawing.Point(118, 118);
+      this.invSlot6.Name = "invSlot6";
+      this.invSlot6.Size = new System.Drawing.Size(100, 100);
+      this.invSlot6.TabIndex = 5;
+      this.invSlot6.Tag = "5";
+      this.invSlot6.Text = "0";
+      this.invSlot6.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+      this.invSlot6.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+      this.invSlot6.UseVisualStyleBackColor = true;
+      this.invSlot6.Click += new System.EventHandler(this.InvSlot_Click);
+      // 
+      // invSlot7
+      // 
+      this.invSlot7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+      this.invSlot7.Location = new System.Drawing.Point(224, 118);
+      this.invSlot7.Name = "invSlot7";
+      this.invSlot7.Size = new System.Drawing.Size(100, 100);
+      this.invSlot7.TabIndex = 6;
+      this.invSlot7.Tag = "6";
+      this.invSlot7.Text = "0";
+      this.invSlot7.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+      this.invSlot7.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+      this.invSlot7.UseVisualStyleBackColor = true;
+      this.invSlot7.Click += new System.EventHandler(this.InvSlot_Click);
+      // 
+      // invSlot8
+      // 
+      this.invSlot8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+      this.invSlot8.Location = new System.Drawing.Point(330, 118);
+      this.invSlot8.Name = "invSlot8";
+      this.invSlot8.Size = new System.Drawing.Size(100, 100);
+      this.invSlot8.TabIndex = 7;
+      this.invSlot8.Tag = "7";
+      this.invSlot8.Text = "0";
+      this.invSlot8.TextAlign = System.Drawing.ContentAlignment.BottomRight;
+      this.invSlot8.TextImageRelation = System.Windows.Forms.TextImageRelation.TextAboveImage;
+      this.invSlot8.UseVisualStyleBackColor = true;
+      this.invSlot8.Click += new System.EventHandler(this.InvSlot_Click);
+      // 
+      // goldLabel
+      // 
+      this.goldLabel.AutoSize = true;
+      this.goldLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.goldLabel.Location = new System.Drawing.Point(12, 225);
+      this.goldLabel.Name = "goldLabel";
+      this.goldLabel.Size = new System.Drawing.Size(64, 25);
+      this.goldLabel.TabIndex = 8;
+      this.goldLabel.Text = "Gold: ";
+      // 
+      // goldAmount
+      // 
+      this.goldAmount.AutoSize = true;
+      this.goldAmount.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.goldAmount.Location = new System.Drawing.Point(62, 225);
+      this.goldAmount.Name = "goldAmount";
+      this.goldAmount.Size = new System.Drawing.Size(23, 25);
+      this.goldAmount.TabIndex = 9;
+      this.goldAmount.Text = "0";
+      // 
+      // FrmInventory
+      // 
+      this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+      this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+      this.ClientSize = new System.Drawing.Size(445, 259);
+      this.Controls.Add(this.goldAmount);
+      this.Controls.Add(this.goldLabel);
+      this.Controls.Add(this.invSlot8);
+      this.Controls.Add(this.invSlot7);
+      this.Controls.Add(this.invSlot6);
+      this.Controls.Add(this.invSlot5);
+      this.Controls.Add(this.invSlot4);
+      this.Controls.Add(this.invSlot3);
+      this.Controls.Add(this.invSlot2);
+      this.Controls.Add(this.invSlot1);
+      this.Name = "FrmInventory";
+      this.Text = "Inventory";
+      this.ResumeLayout(false);
+      this.PerformLayout();
 
         }
 
@@ -179,5 +204,7 @@
         private System.Windows.Forms.Button invSlot6;
         private System.Windows.Forms.Button invSlot7;
         private System.Windows.Forms.Button invSlot8;
-    }
+    private System.Windows.Forms.Label goldLabel;
+    private System.Windows.Forms.Label goldAmount;
+  }
 }
