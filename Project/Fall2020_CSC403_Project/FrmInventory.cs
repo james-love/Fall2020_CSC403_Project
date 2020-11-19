@@ -57,6 +57,7 @@ namespace Fall2020_CSC403_Project
         // This method is meant to be called from a secondary thread.
         public void UpdateInventory()
         {
+            goldAmount.Text = player.Gold.ToString();
             for (int i = 0; i < inventory.MaxInventorySize; i++)
             {
                 if (inventory.GetInventoryObject(i) != null)
@@ -79,5 +80,5 @@ namespace Fall2020_CSC403_Project
                 }
             }
         }
-    }
+  }
 }

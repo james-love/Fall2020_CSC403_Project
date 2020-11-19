@@ -13,6 +13,7 @@ namespace Fall2020_CSC403_Project.code {
         private Stats _stats;
         public Stats Stats { get => _stats; }
         public IWeapon EquippedWeapon;
+        public int Gold = 0;
 
         public Player(Vector2 initPos, Collider collider) : base(initPos, collider)
         {

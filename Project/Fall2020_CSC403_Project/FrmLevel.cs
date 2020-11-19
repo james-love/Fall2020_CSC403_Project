@@ -13,6 +13,7 @@ namespace Fall2020_CSC403_Project {
     private Character[] walls;
     private Enemy Boss;
     private List<Enemy> Enemies;
+    private List<Loot> DroppedLoot;
 
     private DateTime timeBegin;
     private FrmBattle frmBattle;
@@ -23,6 +24,7 @@ namespace Fall2020_CSC403_Project {
     public FrmLevel() {
       InitializeComponent();
       Enemies = new List<Enemy>();
+      DroppedLoot = new List<Loot>();
     }
 
     private void FrmLevel_Load(object sender, EventArgs e) {
@@ -82,6 +84,17 @@ namespace Fall2020_CSC403_Project {
       // Render the gold to the screen
       goldInstance.Visible = true;
       Controls.Add(goldInstance);
+
+      DroppedLoot.Add(new Loot(CreatePosition(goldInstance), CreateCollider(goldInstance, 7), goldInstance, OnGoldLooted));
+    }
+
+    private void OnGoldLooted (Loot gold)
+    {
+      player.Gold += 10;
+      gold.Icon.Visible = false;
+      DroppedLoot.Remove(gold);
+      if (frmInventory != null)
+        frmInventory.UpdateInventory();
     }
 
     private static void stopanimate(Object source, System.Timers.ElapsedEventArgs e, Enemy enemy)
@@ -131,6 +144,15 @@ namespace Fall2020_CSC403_Project {
         if (enemy.Alive && HitAChar(player, enemy))
         {
           Fight(enemy);
+          break;
+        }
+      }
+
+      foreach (Loot loot in DroppedLoot)
+      {
+        if (HitAChar(player, loot))
+        {
+          loot.OnLooted();
           break;
         }
       }
